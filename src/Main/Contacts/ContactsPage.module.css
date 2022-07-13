@@ -1,0 +1,15 @@
+.contactsPages {
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.contactsPages_text {
+    text-align: center;
+}
+
+.form {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}

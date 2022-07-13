@@ -1,0 +1,14 @@
+.worksPage {
+    border: 1px solid blue;
+}
+
+.worksBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+}
+
+.worksPages_text {
+    text-align: center;
+}

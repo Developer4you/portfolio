@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Neucha&display=swap');
+
+.wrapp {
+    width: 100%;
+    background: radial-gradient(circle closest-corner at 70% 80%, #6B6A96, #070640);
+}
+
+.greeting {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    flex: 1;
+}
+
+.greeting_text {
+    flex: 7;
+    color: #cccccc;
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'Bakbak One', cursive;
+}
+
+.myName {
+    color: #FE3E57;
+}
+
+.text_box {
+    margin-top: 150px;
+    max-width: 500px;
+}
+
+.greeting_text h1 {
+    font-size: 56px;
+}
+
+.greeting_text h2 {
+    font-size: 34px;
+}
+
+.greeting_photo {
+    max-width: 600px;
+    height: auto;
+}
+
+.absolute {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    position: relative;
+    top: -300px;
+}
+
+.iconsBlock {
+    padding-top: 10px;
+    display: flex;
+    width: 360px;
+}
+
+.htmlCss {
+    width: 100px;
+}
+
+.js {
+    width: 50px;
+}
+
+.react {
+    width: 50px;
+}

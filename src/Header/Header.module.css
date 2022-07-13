@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: right;
+    justify-items: center;
+    flex-wrap: wrap;
+    min-height: 10vh;
+}
+.header_nav {
+    margin: auto 0;
+}

@@ -1,0 +1,14 @@
+.skillsPage {
+    border: 1px solid blue;
+}
+
+.skillsBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+}
+
+.skillsPages_text {
+    text-align: center;
+}

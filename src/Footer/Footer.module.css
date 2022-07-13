@@ -1,0 +1,23 @@
+.footer {
+    border: 1px solid red;
+}
+
+.footer_text {
+    text-align: center;
+}
+
+.wrap {
+    max-width: 360px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.box {
+    height: 60px;
+    width: 60px;
+    background-color: darkgrey;
+}
+

@@ -1,0 +1,15 @@
+.work {
+    min-width: 360px;
+    width: 30%;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.work_imgBox {
+    display: inline-block;
+    width: 30%;
+}
+
+.work_text {
+    text-align: center;
+}
