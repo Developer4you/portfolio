@@ -7,7 +7,7 @@ function Greeting() {
     return (
         <div className={s.wrapp}>
             <div className={`${s.greeting} ${stylesApp.container}`}>
-                <div className={s.block}></div>
+                <div className={s.block}> </div>
                 <div className={s.greeting_text}>
                     <div className={s.text_box}>
                         <h1>Hello! <br/>I'm <span className={s.myName}>Andrey</span> Averkin</h1>
@@ -26,7 +26,7 @@ function Greeting() {
                     </div>
                 </div>
 
-                    <img className={s.greeting_photo} src="myPhoto2.png" alt="My photo"/>
+                    <img className={s.greeting_photo} src="myPhoto2.png" alt="It's me"/>
 
             </div>
         </div>
