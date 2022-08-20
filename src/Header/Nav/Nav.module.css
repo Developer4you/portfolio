@@ -1,16 +1,13 @@
 .ul {
     display: flex;
-    justify-content: space-between;
-    width: 500px;
     flex-wrap: wrap;
     font-family: 'Bakbak One', cursive;
-    font-size: 18px;
+    font-size: calc(0.8rem + 1vw);
 
 }
 
 .ul li {
-    text-align: center;
-    width: 100px;
+    text-align: right;
     margin: 5px;
     padding: 5px;
     text-transform: uppercase;

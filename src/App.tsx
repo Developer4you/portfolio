@@ -7,9 +7,11 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     <div className={s.app}>
+        <div className={s.wrap}>
       <Header />
       <Main />
       <Footer />
+        </div>
     </div>
   );
 }

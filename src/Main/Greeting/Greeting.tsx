@@ -1,6 +1,10 @@
 import React from 'react';
 import s from './Greeting.module.css'
 import stylesApp from '../../Container.module.css'
+import mainPhoto from './myPhoto2.png'
+import HtmlCssIcon from './HtmlCssIcon.png'
+import JS_logo_large from './JS-logo-large-2.png'
+import reactlogo from './logo192.png'
 
 
 function Greeting() {
@@ -20,13 +24,13 @@ function Greeting() {
                         {/*</div>*/}
                     </div>
                     <div className={s.iconsBlock}>
-                        <img className={s.htmlCss} src="HtmlCssIcon.png" alt="html&css"/>
-                        <img className={s.js} src="JS-logo-large-2.png" alt="js"/>
-                        <img className={s.react} src="logo192.png" alt="react"/>
+                        <img className={s.htmlCss} src={HtmlCssIcon} alt="html&css"/>
+                        <img className={s.js} src={JS_logo_large} alt="js"/>
+                        <img className={s.react} src={reactlogo} alt="react"/>
                     </div>
                 </div>
 
-                    <img className={s.greeting_photo} src="myPhoto2.png" alt="It's me"/>
+                    <img className={s.greeting_photo} src={mainPhoto} alt="It's me"/>
 
             </div>
         </div>

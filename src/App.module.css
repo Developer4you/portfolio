@@ -1,3 +1,7 @@
 .app {
     background-color: #070640;
 }
+.wrap {
+    margin: 0 auto;
+    max-width: 1300px;
+}
