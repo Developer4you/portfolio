@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Neucha&display=swap');
-
 .wrapp {
     width: 100%;
-    background: radial-gradient(circle closest-corner at 70% 80%, #6B6A96, #070640);
+    padding-top: 60px;
+    background: radial-gradient(circle closest-corner at 70% 90%, #6B6A96, #0b0a5d);
 }
 .greeting {
     text-align: center;
 }
 .greeting_text {
     width: 100%;
-    color: #cccccc;
-    font-family: 'Lobster', cursive;
-    /*font-family: 'Bakbak One', cursive;*/
 }
 .myName {
     color: #FE3E57;
 }
+
+.text_box {
+    padding-bottom: 20px;
+}
+
 .iconsBlock {
-    padding-top: 10px;
+    padding: 20px 0 20px 0;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -55,16 +56,17 @@
 
     .text_box {
         margin-top: 25vh;
-        max-width: 80%;
-    }
-
-    .greeting_text h1 {
-        font-size: calc(1rem + 2vw);
-        line-height: 10vh;
+        max-width: 90%;
     }
 
     .greeting_text h2 {
-        font-size: calc(0.3rem + 2vw);
+        font-size: calc(0.7rem + 3vw);
+        font-weight: 900;
+        line-height: 10vh;
+    }
+
+    .greeting_text h3 {
+        font-size: calc(0.3rem + 1vw);
     }
 
     .greeting_photo {
@@ -76,7 +78,6 @@
     .iconsBlock {
         max-width: 80%;
         justify-content: left;
-
     }
 
     /*.absolute {*/

@@ -1,20 +1,22 @@
 .ul {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Bakbak One', cursive;
-    font-size: calc(0.8rem + 1vw);
-
+    font-size: calc(0.6rem + 1vw);
+    font-weight: 700;
+    color: #CCCCCC;
 }
 
 .ul li {
     text-align: right;
     margin: 5px;
     padding: 5px;
+}
+
+.ul li:first-letter {
     text-transform: uppercase;
 }
 
 .ul a {
     text-decoration: none;
-    color: #FFF;
+    color: #CCCCCC;
 }
-

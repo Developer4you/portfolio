@@ -6,7 +6,7 @@ import Work from './Works/Work';
 
 function WorksPage() {
     return (
-        <div className={`${s.worksPages} ${stylesApp.container}`}>
+        <div id="works" className={`${s.worksPages} ${stylesApp.container}`}>
             <div className={s.worksPages_text}>
                 <h2>My works </h2>
             </div>

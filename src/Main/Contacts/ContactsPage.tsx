@@ -4,7 +4,7 @@ import stylesApp from '../../Container.module.css'
 
 function ContactsPage() {
     return (
-        <div className={`${s.contactsPages} ${stylesApp.container}`}>
+        <div id="contacts" className={`${s.contactsPages} ${stylesApp.container}`}>
             <div className={s.contactsPages_text}>
                 <h2>My contacts </h2>
             </div>

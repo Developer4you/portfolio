@@ -1,8 +1,17 @@
 .header {
+    position: sticky;
+    top: 0;
     display: flex;
-    justify-content: right;
-    min-height: 10vh;
+    justify-content: center;
+    min-height: 5vh;
+    background-color:  rgba(0,0,0,0.8);
 }
 .header_nav {
     margin: auto 0;
+}
+
+@media all and (orientation:landscape) {
+    .header {
+        justify-content: right;
+    }
 }

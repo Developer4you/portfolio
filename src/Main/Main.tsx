@@ -1,29 +1,28 @@
 import React from 'react';
 import s from './Main.module.css'
-import stylesApp from '../Container.module.css'
 import Greeting from './Greeting/Greeting';
-import SkillsPage from './SkillsPage/SkillsPage';
 import WorksPage from './WorksPage/WorksPage';
 import TeleworkPage from './Telework/TeleworkPage';
 import ContactsPage from './Contacts/ContactsPage';
+import AboutMe from './AboutMe/AboutMe';
 
-function Main() {
+function Main(props:any) {
     return (
-        <main className= {s.main}>
+        <main className={s.main}>
             <section className={s.section}>
-                <Greeting />
+                    <Greeting />
             </section>
             <section className={s.section}>
-                <SkillsPage />
+                <AboutMe />
+            </section>
+            <section >
+                <WorksPage/>
             </section>
             <section className={s.section}>
-                <WorksPage />
+                <TeleworkPage/>
             </section>
             <section className={s.section}>
-                <TeleworkPage />
-            </section>
-            <section className={s.section}>
-                <ContactsPage />
+                <ContactsPage/>
             </section>
 
 
